@@ -1,4 +1,4 @@
-package com.RelletAI.Backend;
+package com.RelletAI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
