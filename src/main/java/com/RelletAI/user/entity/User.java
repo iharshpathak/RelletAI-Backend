@@ -29,4 +29,11 @@ public class User {
     @Builder.Default
     @Column(nullable = false)
     private Boolean subscription = false;
+
+    @PrePersist
+public void prePersist() { //if frontend sends subscription as null then it wont breake
+    if (subscription == null) {
+        subscription = false;
+    }
+}
 }
