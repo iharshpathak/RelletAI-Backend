@@ -8,15 +8,26 @@ AI-powered application built with Spring Boot.
 
 ## Tech Stack
 
-- Java 17
+- Java 21
 - Spring Boot
 - PostgreSQL
-- JWT Authentication
+- JWT Authentication (Clerk)
 - REST APIs
+- Maven
 
-## Planned Features
-
+## Implemented Features
 - User Authentication
+- Crud functionality with DTO
+- JWT-based Secure API Access
+- PostgreSQL Integration
+- RESTful API Architecture
+- MVC Architecture
+
+## In Progress
 - AI Integration
-- Role Based Access Control
-- Dashboard
+- Role-Based Access Control (RBAC)
+  
+## Goals
+- Build a scalable AI-powered platform
+- Follow clean architecture and best practices
+- Deliver production-ready backend services
