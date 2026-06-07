@@ -11,7 +11,8 @@ AI-powered application built with Spring Boot.
 - Java 21
 - Spring Boot
 - PostgreSQL
-- JWT Authentication (Clerk)
+- Clerk Authentication
+- JWT-based Authorization
 - REST APIs
 - Maven
 
